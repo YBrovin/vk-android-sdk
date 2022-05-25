@@ -29,10 +29,10 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
-import androidx.activity.ComponentActivity
-import androidx.activity.result.ActivityResultCallback
-import androidx.activity.result.ActivityResultLauncher
-import androidx.activity.result.contract.ActivityResultContract
+import android.support.activity.ComponentActivity
+import android.support.activity.result.ActivityResultCallback
+import android.support.activity.result.ActivityResultLauncher
+import android.support.activity.result.contract.ActivityResultContract
 import com.vk.api.sdk.auth.*
 import com.vk.api.sdk.auth.VKAuthManager
 import com.vk.api.sdk.exceptions.VKApiException

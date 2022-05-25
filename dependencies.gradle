@@ -32,10 +32,10 @@ ext.sdkVersions = [
         buildTools                      : '30.0.3',
 
         kotlin                          : '1.5.31',
-        androidXAppCompat               : '1.3.1',
+        androidXAppCompat               : '27.1.1',
         androidXActivity                : '1.4.0',
-        androidXRV                      : '1.2.1',
-        androidXCollection              : '1.1.0',
+        androidXRV                      : '27.1.1',
+        androidXCollection              : '28.0.0',
         okHttp                          : '4.9.1',
 
         picasso                         : '2.71828',
@@ -54,15 +54,15 @@ ext.sdkLibraries = [
         okHttp                          : "com.squareup.okhttp3:okhttp:$sdkVersions.okHttp",
         okHttpLoggingInterceptor        : "com.squareup.okhttp3:logging-interceptor:$sdkVersions.okHttp",
         picasso                         : "com.squareup.picasso:picasso:$sdkVersions.picasso",
-        gson                            :"com.google.code.gson:gson:$sdkVersions.gson",
-        vkUid                           :"com.vk:android-sdk-id:$sdkVersions.name"
+        gson                            : "com.google.code.gson:gson:$sdkVersions.gson",
+        vkUid                           : "com.vk:android-sdk-id:$sdkVersions.name"
 ]
 
 ext.sdkLibrariesSupport = [
-        appCompat                       : "androidx.appcompat:appcompat:$sdkVersions.androidXAppCompat",
-        recyclerView                    : "androidx.recyclerview:recyclerview:$sdkVersions.androidXRV",
-        collection                      : "androidx.collection:collection:$sdkVersions.androidXCollection",
-        activity                        : "androidx.activity:activity-ktx:$sdkVersions.androidXActivity"
+        appCompat                       : "com.android.support:appcompat-v7:$sdkVersions.androidXAppCompat",
+        recyclerView                    : "com.android.support:recyclerview-v7:$sdkVersions.androidXRV",
+        collection                      : "com.android.support:collections:$sdkVersions.androidXCollection",
+//        activity                        : "com.android.support.activity:activity-ktx:$sdkVersions.androidXActivity"
 ]
 
 ext.testLibraries = [

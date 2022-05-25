@@ -95,7 +95,7 @@ dependencies {
     implementation sdkLibraries.okHttp
     implementation sdkLibraries.okHttpLoggingInterceptor
     implementation sdkLibrariesSupport.collection
-    implementation sdkLibrariesSupport.activity
+//    implementation sdkLibrariesSupport.activity
 
     testImplementation testLibraries.junit
     testImplementation testLibraries.mockito
