@@ -95,6 +95,9 @@ dependencies {
     implementation sdkLibraries.okHttp
     implementation sdkLibraries.okHttpLoggingInterceptor
     implementation sdkLibrariesSupport.collection
+    implementation 'android.arch.lifecycle:common:1.1.1'
+    implementation 'com.android.support:support-compat:27.1.1'
+
 //    implementation sdkLibrariesSupport.activity
 
     testImplementation testLibraries.junit
